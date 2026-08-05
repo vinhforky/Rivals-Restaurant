@@ -41,5 +41,6 @@ body {
 }
 .menu-item {
     font-size: 16px;
+    font-weight: 400;
     color:#101A24
 }
