@@ -24,14 +24,15 @@
 }
 
 body {
-    max-width: auto;
+    max-width: 1512px;
     padding: 24px;
-    margin: 0 auto
+    margin: auto;
 }
 
 .navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .menu {
@@ -43,4 +44,24 @@ body {
     font-size: 16px;
     font-weight: 400;
     color:#101A24
+}
+
+.booking:hover {
+    font-family: "David Libre", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FFFFFF;
+    background-color: #ea6d27;
+    border-radius: 16px 4px 16px 4px;
+    width: 167px;
+    height: 64px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+    font-family: "David Libre", serif;
+    text-decoration: bold;
+    font-size: 50px;
 }
