@@ -80,3 +80,57 @@ body {
     height: 115px;
     line-height: 29px;
 }
+
+.dishes-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.dish {
+    width: 265px;
+    height: 309px;
+}
+
+.dish-title {
+    font-family: "David Libre", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #101A24;
+    line-height: 26px;
+}
+
+.dish-description {
+    font-family: "Inter", sans-serif;
+    color: #5C6574;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.dishes-title {
+    font-family: "David Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    color: #101A24;
+    line-height: 65px;
+    margin-bottom: 16px;
+}
+
+.dishes-intro {
+    font-family: "Inter", sans-serif;
+    color: #5C6574;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+    max-width: 400px;
+    margin-bottom: 32px;
+}
+
+.dishes-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+}
